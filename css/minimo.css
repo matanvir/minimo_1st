@@ -1,0 +1,106 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: 'Playfair Display', serif; 
+	color:#626262;
+}
+/*header start*/
+header{
+	/*border: 1px solid black;*/
+	padding: 25px 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto; 
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	width: 13%;
+	float: left;
+	margin-top: 3px;
+	/*border: 1px solid red;*/
+}
+.logo img{
+	width: 100%
+}
+.menu{
+	width: 70%;
+	float: right;
+	/*border: 1px solid red;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0 50px; 
+	padding: 10px 0;
+	transition: .9s;
+	border: 1px solid transparent; 
+}
+.menu ul li:last-child a{
+	margin-right: 0px;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{
+	width: 100%;
+} 
+/*banner end*/
+/*newsletter start*/
+.newsletter{
+	padding: 70px 0px;
+	background-color: #f0f0f0;
+	text-align: center;
+}
+.signup{}
+.signup h2{
+	font-size: 32px;
+	margin-bottom: 80px;
+	color: #333333;
+}
+.signup_form{
+	margin: 0 auto;
+	width: 400px;
+	position: relative;
+}
+.signup_form input{
+	padding-bottom: 10px;
+	font-size: 18px;
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+}
+.signup_form button{
+	position: absolute;
+	bottom: 25%;
+	right: 0;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	outline: none;
+}
+/*newsletter end*/
+
+
